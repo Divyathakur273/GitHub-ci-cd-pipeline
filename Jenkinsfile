@@ -12,8 +12,7 @@ pipeline {
             steps {
                 git branch : 'main',
                 credentialsId : 'GitHub-creds',
-                url : 'https://github.com/Divyathakur273/GitHub-ci-cd-pipeline.git',
-               
+                url : 'https://github.com/Divyathakur273/GitHub-ci-cd-pipeline.git'  
             }
         }
 
